@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(#16423C,#E9EFEC);
+    color: #16423C;
+    text-shadow: 0 0  black;
+    
+    
+}
+
+#logo{
+    height: 49px;
+    width: 45px;
+    border: 5px solid #6A9C89;
+}
+
+nav{
+    background-color: #16423C;
+    height: 50px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    padding: 10px 10%;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    
+}
+
+.transform {
+    display: inline-block; /* Ensure inline-block */
+    color: #E9EFEC;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    transition: transform 0.4s;
+    padding: 5px;
+}
+
+.transform:hover{
+    transform: scale(1.3);
+    background-color: #6A9C89;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url(./images/Ampelaki_Main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    padding: 10px 0 40px 0;
+    
+    max-height: 600px;
+    width: auto;
+}
+#main-title {
+    color: #E9EFEC;
+    text-shadow: 0 0 5px black;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+#main-p {
+    color: #E9EFEC;
+    text-shadow: 0 0 5px black;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#section2{
+    margin-top: 50px;
+}
+
+.activities-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    text-shadow: 0 0 #16423C;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 5px solid #6A9C89;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E9EFEC;
+}
+h5 , p{
+    color:#E9EFEC;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+#guides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    
+}
+.guides-cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 5px solid #6A9C89;
+
+}
+.guide-box {
+    display: flex;
+    flex-direction: column; /* Arrange elements in a column */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Center the items horizontally */
+    border: 2px solid #16423C;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding: 10px; /* Add padding to give space inside the box */
+    text-align: center;
+}
+
+.guide-box p {
+    color: #16423C;
+} 
+article p {
+    font-weight: bold;
+    text-shadow: 0 0 4px black;
+}
+
+.btn {
+    margin-top: auto; /* Pushes the button to the bottom */
+    padding: 5px 10px; /* Adds padding to the button */
+    border-radius: 5px;
+    background-color: #6A9C89;
+    color: #E9EFEC;
+    border: 1px solid #16423C;
+}
+.btn:hover {
+    background-color: #E9EFEC;
+    color: #6A9C89;
+    cursor: pointer;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #16423C;
+    height: 50px;
+    color: #E9EFEC;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px; 
+}
+
+
+
+.social ul {
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+}
+
+
+.social ul li{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.social ul li:hover{
+    transform: scale(1.3);
+}
+
+
